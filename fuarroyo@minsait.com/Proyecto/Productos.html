@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tha drug dealer</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b5ab5f9a5e.js" crossorigin="anonymous"></script>
+	<link href="css/styleBienvenida.css" rel="stylesheet">
+	<script src="./js/appProduct.js" type="module"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin="" />
+
+</head>
+
+<body>
+	<!-- body code goes here -->
+
+	<header class="header">
+		<nav class="navbar navbar-custom  navbar-expand-xxl justify-content-center"> <a class="navbar-brand" href="#">
+				Tha Drug Dealer</a>
+			</button>
+		</nav>
+	</header>
+	<div class="row-xxl justify-content-center">
+		<div class="row justify-content-center" style="padding: 20px">
+			<div class="col-11 text-center">
+				<h1>Distribuidores Legales de Marihuana en la Ciudad de México.</h1>
+			</div>
+			<div class="col-10 text-center">
+				<p>Tha Drug Store te ofrece los mejores Dealers de la Ciudad de México para la compra de marihuana y
+					cannabis de primera calidad, comestibles frescos,
+					concentrados potentes, tópicos y tinturas, vaporizadores y productos de CBD.</p>
+			</div>
+		</div>
+		<div class="row justify-content-center" style="padding-left:12vh; padding-right: 12vh; padding-bottom: 10vh;"
+			id="contenedorPrincipal">
+
+			<div class="card-transparent text-center col-md-4">
+				<div class="card-header" style="color: white"> Comestibles </div>
+				<div class="card-body">
+					<img class="card-img-top" src="./img/ComestibleBrow-removebg.png">
+					<p class="card-text">Contenidos: 10g-100g</p>
+					<a href="#contenedorStores" class="btn btn-outline-success" id="AdquirirComestibles">Donde adquirir</a>
+					<a href="#contenedorInfo" class="btn btn-outline-info" id="InfoComestible">+Info</a>
+				</div>
+				<div class="card-footer text-muted"> Nivel: Bajo-Medio </div>
+			</div>
+
+			<div class="card-transparent text-center col-md-4">
+				<div class="card-header" style="color: white"> Concentrados </div>
+				<div class="card-body">
+					<img class="card-img-top" src="./img/Concentrado2.jpg">
+					<p class="card-text">Contenidos: 5g-10g</p>
+					<a href="#contenedorStores" class="btn btn-outline-success" id="AdquirirConcentrados">Donde adquirir</a>
+					<a href="#contenedorInfo" class="btn btn-outline-info" id="InfoConcentrados">+Info</a>
+				</div>
+				<div class="card-footer text-muted"> Nivel: Experto </div>
+			</div>
+			<div class="card-transparent text-center col-md-4">
+				<div class="card-header" style="color: white"> Tinturas </div>
+				<div class="card-body">
+					<img class="card-img-top" src="./img/Tintura2-removebg.png">
+					<p class="card-text">Contenidos: 20ml-50ml</p>
+					<a href="#contenedorStores" class="btn btn-outline-success" id="AdquirirTinturas">Donde adquirir</a>
+					<a href="#contenedorInfo" class="btn btn-outline-info" id="InfoTinturas">+Info</a>
+				</div>
+				<div class="card-footer text-muted"> Nivel: Medio-Alto </div>
+			</div>
+
+			<div class="card-transparent text-center col-md-4">
+				<div class="card-header" style="color: white"> Vaporizadores </div>
+				<div class="card-body">
+					<img class="card-img-top" src="./img/Vaporizador2.jpeg">
+					<p class="card-text">Contenido: 10ml/pza</p>
+					<a href="#contenedorStores" class="btn btn-outline-success" id="AdquirirVaporizadores">Donde adquirir</a>
+					<a href="#contenedorInfo" class="btn btn-outline-info" id="InfoVaporizadores">+Info</a>
+				</div>
+				<div class="card-footer text-muted"> Nivel: Medio </div>
+			</div>
+			<div class="card-transparent text-center col-md-4">
+				<div class="card-header" style="color: white"> CBD </div>
+				<div class="card-body">
+					<img class="card-img-top" src="./img/CBD2-removebg.png">
+					<p class="card-text">Contenido: 20ml-50ml</p>
+					<a href="#contenedorStores" class="btn btn-outline-success" id="AdquirirCBD">Donde adquirir</a>
+					<a href="#contenedorInfo" class="btn btn-outline-info" id="InfoCBD">+Info</a>
+				</div>
+				<div class="card-footer text-muted"> Nivel: Experto </div>
+			</div>
+			<div class="card-transparent text-center col-md-4">
+				<div class="card-header" style="color: white"> Cigarros </div>
+				<div class="card-body">
+					<img class="card-img-top" src="./img/Cigarro2-removebg.png">
+					<p class="card-text">Contenido: 5pz-15pz</p>
+					<a href="#contenedorStores" class="btn btn-outline-success" id="AdquirirCigarros">Donde adquirir</a>
+					<a href="#contenedorInfo" class="btn btn-outline-info" id="InfoCigarros">+Info</a>
+				</div>
+				<div class="card-footer text-muted"> Nivel: Medio-Alto </div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="row-xxl justify-content-center text-center">
+
+		<div class="contenedorInfo" id="contenedorInfo"></div>
+		<div class="row justify-content-around" style="padding: 3%;">
+			<div class="col-md-7 text-center">
+				
+				<div class="containerStores" id="contenedorStores">
+					
+
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div id="mapid"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<footer>
+		<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2021 Copyright: Tha Drug Store. All rights reserved. By Uriel Arroyo
+		</div>
+		<!-- Copyright -->
+	</footer>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+
+
+</body>
+
+</html>

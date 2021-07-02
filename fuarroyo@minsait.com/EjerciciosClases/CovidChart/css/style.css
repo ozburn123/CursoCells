@@ -1,0 +1,14 @@
+body{
+	background:#f7eed3;  /* fallback for old browsers */
+
+}
+.header .navbar {
+    background-color: transparent !important;
+  }
+
+  .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color:black;
+			font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+			font-size: 25px;
+        }

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+.navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color:white;
+           
+			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			font-size: 200%;
+      font-weight: 700;
+        }
+
+.btn-outline-secondary{
+  
+  height: 60px; 
+        }
+.btn-secondary{
+  color:black;
+	background-color:rgba(255, 234, 142, 0.5) !important;
+  font-size: 100%;
+}
+#mapid {
+   height: 590px; 
+  }
+.header .navbar {
+  background-color: #3ecf52 !important;
+}
+
+h1{
+  font-size:200%;
+  font-family:"Roboto";
+  font-weight: 800;
+  
+}
+
+.card-img-top{
+  filter: brightness(1.1);
+  
+  mix-blend-mode: multiply;
+  width: 20vh;
+  height: 19.5vh;
+}
+.card-header{
+  font-family:"Roboto";
+  font-weight: 700;
+  background-color: #3ecf52 !important;
+  font-size: 150%;
+}
+.img{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 500%;
+  
+}
+img{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 30vw;
+}
+h2{
+ 
+  background-color: #3ecf52;
+  font-weight: 700;
+  color: white;
+  line-height: 2em;
+  font-size: 150%;
+}
+
+
+p{
+  font-size: 100%;
+  font-family:"Montserrat", Sans-serif;
+}
+#storeInfoTitle{
+  font-size: 100%;
+}
+#storeInfo{
+  font-size: 80%;
+}
+
+.btn-primary {
+	color:black;
+	background-color:rgba(86, 255, 44, 0.1) !important;
+  font-size:  100%;
+}
+.card-transparent{
+  padding: 2%;
+}
+

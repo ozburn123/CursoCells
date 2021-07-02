@@ -1,0 +1,19 @@
+{
+  "name": "@ozburn/products-drug-dealer",
+  "version": "0.0.0",
+  "description": "Webcomponent products-drug-dealer following open-wc recommendations",
+  "author": "products-drug-dealer",
+  "license": "MIT",
+  "main": "products-drug-dealer.js",
+  "module": "products-drug-dealer.js",
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit-html": "^1.4.1",
+    "lit-element": "^2.5.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.17"
+  }
+}

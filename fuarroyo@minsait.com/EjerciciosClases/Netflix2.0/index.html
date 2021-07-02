@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script type="module" src="script/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logoContainer">
+                <img src="https://pngimage.net/wp-content/uploads/2018/06/netflix-icon-png-5.png">
+            </div>
+            
+            <form id="buscadorInicio">
+                <input type="text" name="anioInicio" autocomplete="false" placeholder="Año inicial" min="1" title="Ingresa una pelicula" >
+            </form>
+            <form id="buscadorFin">
+                <input type="text" name="anioFin" autocomplete="false" placeholder="Año final" min="1" title="Ingresa una pelicula" >
+                <input type="submit" id="botonBuscarAnio" value="&#x1F50D;">
+            </form>
+            <form id="buscadorPeliculas">
+                <input type="text" name="titulo" autocomplete="false" placeholder="Busqueda por titulo" min="1" title="Ingresa una pelicula" >
+                <input type="submit" value="&#x1F50D;">
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container" id="contenedor"></div>
+    </main>
+    <footer>
+    </footer>
+
+</body>
+</html>

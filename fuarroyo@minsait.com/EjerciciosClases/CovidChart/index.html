@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informacion COVID</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b5ab5f9a5e.js" crossorigin="anonymous"></script>
+	<script type="module" src="js/App.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+	<header class="header">
+		<nav class="navbar navbar-custom bg-light navbar-expand-md"> <a class="navbar-brand" href="#"><i
+					class="fas fa-virus"></i> SARS-COV2</a>
+
+		</nav>
+	</header>
+	<!-- body code goes here -->
+	<div class="row m-0  justify-content-center align-items-center">
+		<div class="col-11 text-center">
+			<h1 >Información actualizada sobre COVID-19 en la Republica Mexicana.</h1>
+		</div>
+		<div class="col-12 p-5 text-left">
+			<p>La siguiente Informacion fue extraida de: <a
+					href="https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico">Datos
+					Abiertos de México</a> y muestra una serie de gráficas con la cantidad de casos confirmados por la Asosciación Clínica
+				Epidemiológica, los casos confirmados y los casos negativos segun el sexo de los habitantes por entidades de la
+				Republica Mexicana.</p>
+		</div>
+
+		<div class="col-8 p-10 text-center">
+			<div>
+				<canvas id="myChart"></canvas>
+			</div>
+		</div>
+
+		<div class="col-8 p-10 text-center">
+			<div>
+				<canvas id="myChart2"></canvas>
+			</div>
+		</div>
+		<div class="col-8 p-10 text-center">
+			<div>
+				<canvas id="myChart3"></canvas>
+			</div>
+		</div>
+		<div class="col-8 p-10 text-center">
+			<div>
+				<canvas id="myChart4"></canvas>
+			</div>
+		</div>
+		<div class="col-8 p-10 text-center">
+			<div>
+				<canvas id="myChart5"></canvas>
+			</div>
+		</div>
+		<div class="col-8 p-10 text-center">
+			<div>
+				<canvas id="myChart6"></canvas>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+
+</html>

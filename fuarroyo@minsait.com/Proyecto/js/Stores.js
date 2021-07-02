@@ -1,0 +1,135 @@
+let dataStores = [
+
+    {
+        "ID": 0,
+        "NAME": "Argentia Green: ",
+        "ADRESS": "Naranjo 348, Atlampa, Cuauhtémoc, 06450 Ciudad de México, CDMX",
+        "LATITUD": 19.45869651353519,
+        "LONGITUD": -99.15691280757504,
+        "COMESTIBLE": "true",
+        "CONCENTRADO": "false",
+        "TINTURA": "false",
+        "VAPORIZADOR": "true",
+        "CBD": "true",
+        "CIGARRO": "false"
+    },
+    {
+        "ID": 1,
+        "NAME": "Weed Land: ",
+        "ADRESS": "Beethoven S/N, Peralvillo, Cuauhtémoc, 06220 Ciudad de México, CDMX",
+        "LATITUD": 19.461536675620746,
+        "LONGITUD": -99.13488991230558,
+        "COMESTIBLE": "false",
+        "CONCENTRADO": "false",
+        "TINTURA": "true",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 2,
+        "NAME": "The Road Trip: ",
+        "ADRESS": "Francisco Ortega 30, Centro, Coyoacán, 04000 Carlowrie, CDMX",
+        "LATITUD": 19.34773959768314,
+        "LONGITUD": -99.16367427792298,
+        "COMESTIBLE": "true",
+        "CONCENTRADO": "true",
+        "TINTURA": "false",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 3,
+        "NAME": "False Ovni: ",
+        "ADRESS": "Pujilí 13, Lindavista Nte., Gustavo A. Madero, 07300 Ciudad de México, CDMX",
+        "LATITUD": 19.50018993684951,
+        "LONGITUD": -99.13053321269167,
+        "COMESTIBLE": "true",
+        "CONCENTRADO": "false",
+        "TINTURA": "true",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 4,
+        "NAME": "Rocket Racoon: ",
+        "ADRESS": "Jardines del Pedregal, 01900 Ciudad de México, CDMX",
+        "LATITUD": 19.327779648623167,
+        "LONGITUD": -99.21031638900652,
+        "COMESTIBLE": "false",
+        "CONCENTRADO": "true",
+        "TINTURA": "true",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "false"
+    },
+    {
+        "ID": 5,
+        "NAME": "Cenestetic: ",
+        "ADRESS": "Manuel M. Flores 5, Obrera, Cuauhtémoc, 06800 Ciudad de México, CDMX",
+        "LATITUD": 19.416781433170463,
+        "LONGITUD": -99.14323657505912,
+        "COMESTIBLE": "false",
+        "CONCENTRADO": "true",
+        "TINTURA": "false",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 6,
+        "NAME": "So High: ",
+        "ADRESS": "Matamoros 145, Tepito, Morelos, Cuauhtémoc, 06200 Ciudad de México, CDMX",
+        "LATITUD": 19.447014371250894,
+        "LONGITUD": -99.12960290444991,
+        "COMESTIBLE": "true",
+        "CONCENTRADO": "false",
+        "TINTURA": "false",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 7,
+        "NAME": "YWF: ",
+        "ADRESS": "Rivero 109-709, Tepito, Morelos, Cuauhtémoc, 06200 Ciudad de México, CDMX",
+        "LATITUD": 19.447267694890368,
+        "LONGITUD": -99.12655782905973,
+        "COMESTIBLE": "false",
+        "CONCENTRADO": "true",
+        "TINTURA": "true",
+        "VAPORIZADOR": "true",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 8,
+        "NAME": "Marihuana Buy: ",
+        "ADRESS": "Av Ejército Nacional 746, Polanco, Miguel Hidalgo, 11540 Ciudad de México, CDMX",
+        "LATITUD": 19.43796255824964,
+        "LONGITUD": -99.19899088276655,
+        "COMESTIBLE": "false",
+        "CONCENTRADO": "true",
+        "TINTURA": "true",
+        "VAPORIZADOR": "false",
+        "CBD": "false",
+        "CIGARRO": "true"
+    },
+    {
+        "ID": 9,
+        "NAME": "Red Room: ",
+        "ADRESS": "Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX",
+        "LATITUD": 19.413509393637046,
+        "LONGITUD": -99.10360090581018,
+        "COMESTIBLE": "true",
+        "CONCENTRADO": "false",
+        "TINTURA": "true",
+        "VAPORIZADOR": "true",
+        "CBD": "true",
+        "CIGARRO": "false"
+    }
+]
+
+export default dataStores;

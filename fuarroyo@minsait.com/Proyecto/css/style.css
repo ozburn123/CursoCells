@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+.navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color:white;
+           
+			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			font-size: 200%;
+      font-weight: 700;
+        }
+/*body{
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}*/
+
+p{
+	font-size: 20px;
+  font-family:"Montserrat", Sans-serif;
+}
+label{
+	font-size: 18px;
+  font-family:"Montserrat", Sans-serif;
+}
+.header .navbar {
+	background-color: #3ecf52 !important;
+  }
+  
+
+#inputDate,#inputName{
+	color:rgb(0, 0, 0);
+	background-color:rgba(48,43,98,0.1) !important;
+}
+
+
+#formulario{
+	padding: 20px;
+	
+}
+
+
+
+/*
+@keyframes changeCannabis{
+	from {color: green;
+		position: relative;
+	top:-10px;
+		
+	}
+	to {color:black;
+		position: relative;
+	top:0px;
+	}
+}
+
+.fa-cannabis{
+	animation: changeCannabis;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}*/
